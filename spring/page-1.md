@@ -1,6 +1,6 @@
 # N+1 문제를 어떻게 해결할 수 있을까?
 
-> 이 글은 팀원 [브루니](https://github.com/23Yong)이 작성했습니다.
+> 이 글은 팀원 [브루니](https://github.com/23Yong)### 작성했습니다.
 
 프로젝트를 진행하며 다음과 같은 문제를 해결해야했습니다.
 
@@ -140,7 +140,7 @@ WARN firstResult/maxResults specified with collection fetch; applying in memory!
 
 JPA를 사용할 때 OneToMany 관계에서 FETCH JOIN과 Pagination을 함께 사용하면 쿼리의 결과를 모두 메모리에 적재한 뒤 메모리에서 페이징을 수행하기 때문입니다. 이와 같은 방법은 OOM(Out Of Memory)문제를 발생시킬 수 있기 때문에 좋지 않은 방법입니다.
 
-#### default\_batch\_fetch\_size 를 통한 문제 해결
+### default\_batch\_fetch\_size 를 통한 문제 해결
 
 JPA의 XXXToMany 관계에서 FETCH JOIN과 페이징을 함께 사용할 수는 없습니다. 그렇기 때문에 FETCH JOIN을 제거하고 N+1 문제를 해결하기 위해 `default_batch_fetch_size` 옵션을 통해 문제를 해결했습니다.
 
