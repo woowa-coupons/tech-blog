@@ -1,6 +1,6 @@
 # Table of contents
 
-* [tech-blog](README.md)
+* [👨💻 tech-blog](README.md)
 
 ## Spring
 
