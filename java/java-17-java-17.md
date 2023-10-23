@@ -14,7 +14,7 @@
 
 
 
-## ☕️ 왜 Java 17을 사용해야 할까?
+## ☕️ 왜 Java 17을 사용해야 할까요?
 
 {% hint style="info" %}
 💡 참고:
@@ -75,7 +75,7 @@
 
 
 
-### Java 17의 변경점
+## ✨ Java 17의 변경점
 
 그럼 `Java 11`과 비교했을 때 `Java 17`의 변경점에 대해 알아보겠습니다.\
 해당 글에서는 모든 변경점을 다루지 않고 아래 몇가지 추가된 기능만 추려서 다룰 예정입니다.
@@ -86,7 +86,7 @@
 * Switch Expression
 * Stream.toList()
 
-#### Text Block
+### Text Block
 
 * Java 11
 
@@ -115,7 +115,7 @@ String jsonString = """
 
 
 
-#### Record
+### Record
 
 {% hint style="info" %}
 **Record:**
@@ -161,7 +161,7 @@ public record Dto(
 
 
 
-#### Sealed Class
+### Sealed Class
 
 Java 17에 `Sealed Class/Interface`가 추가되었습니다.
 
@@ -190,7 +190,7 @@ public sealed class Parent permits Son, Daughter {
 public sealed class Son extends Parent {}
 ```
 
-#### Switch Expression
+### Switch Expression
 
 {% hint style="info" %}
 **변경된 Switch문 문법:**
@@ -249,7 +249,7 @@ public static void printDayOfWeek(String dayOfWeek) {
 
 
 
-#### Stream.toList()
+### Stream.toList()
 
 * Java 11
 
