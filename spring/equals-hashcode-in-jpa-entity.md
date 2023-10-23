@@ -1,6 +1,6 @@
 # Equals, HashCode in Jpa Entity
 
-이 글은 팀원 [June](https://github.com/JJONSOO)### 작성했습니다.
+> 이 글은 팀원 [June](https://github.com/JJONSOO) 작성했습니다.
 
 테스트 코드를 작성하던 도중, 두 엔티티가 같은지 비교하는 코드가 많아 Java에서 쓰이는 Equals, hahscode가 Jpa에서 어떻게 사용될 수 있는지 알아보았습니다.
 
